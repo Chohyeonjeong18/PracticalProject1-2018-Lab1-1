@@ -30,7 +30,7 @@ public class CalculatorTest {
 	public void testMod() {
 		// TODO Complete this test case
 		Calculator myCalc = new Calculator();
-		assertEquals(myCalc.mod(2,2),0);
+		assertEquals(myCalc.mod(3,2),1);
 	}
 
 	@Test
